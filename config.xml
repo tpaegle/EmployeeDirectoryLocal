@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://paegle.net/ns/1.0"
+    id        = "com.paegle.dbtest"
+    version   = "1.0.0">
+
+<name>Data Base test</name>
+
+<description>
+Data Base test
+</description>
+
+<author href="http://www.paegle.net" email="tadas@paegle.net">
+Tadas Paegle
+</author>
+
+
+
+</widget>
