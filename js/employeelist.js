@@ -49,7 +49,7 @@ function getEmployees_success(tx, results) {
 
 function populateDB(tx) { 
 	$('#busy').show();
-	tx.executeSql('DROP TABLE IF EXISTS employee');
+/*	tx.executeSql('DROP TABLE IF EXISTS employee');
 	var sql = 
 		"CREATE TABLE IF NOT EXISTS employee ( "+
 		"id INTEGER PRIMARY KEY AUTOINCREMENT, " +
@@ -63,7 +63,7 @@ function populateDB(tx) {
 		"cellPhone VARCHAR(30), " +
 		"email VARCHAR(30), " +
 		"picture VARCHAR(200))";
-    tx.executeSql(sql);
+    tx.executeSql(sql);*/
 
     tx.executeSql("INSERT INTO employee (id,firstName,lastName,managerId,title,department,officePhone,cellPhone,email,city,picture) VALUES (12,'Steven','Wells',4,'Software Architect','Engineering','617-000-0012','781-000-0012','swells@fakemail.com','Boston, MA','steven_wells.jpg')");
     tx.executeSql("INSERT INTO employee (id,firstName,lastName,managerId,title,department,officePhone,cellPhone,email,city,picture) VALUES (11,'Amy','Jones',5,'Sales Representative','Sales','617-000-0011','781-000-0011','ajones@fakemail.com','Boston, MA','amy_jones.jpg')");
