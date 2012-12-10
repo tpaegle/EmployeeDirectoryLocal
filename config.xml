@@ -2,7 +2,7 @@
 <widget xmlns = "http://www.w3.org/ns/widgets"
     xmlns:gap = "http://paegle.net/ns/1.0"
     id        = "com.paegle.dbtest"
-    version   = "1.0.0">
+    version   = "1.1.0">
 
 <name>Data Base test</name>
 
